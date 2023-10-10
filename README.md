@@ -26,7 +26,7 @@ To find the number of "G" and "C" in the sequence, commands are then written in 
 An example of the result from printing the percentages and sequence names from the loop and the printed header from earlier in the script should look something like this when redirected into the file GCcount.txt:
 
 | SEQUENCE NAME | GC PERCENTAGE |
----------------------------------
+|---------------|---------------|
 | >DI245396.1 | 43.600 |
 | >DI245395.1 | 42.500 |
 | >HW262829.1 | 43.600 |
@@ -36,7 +36,6 @@ An example of the result from printing the percentages and sequence names from t
 | >NM_001178613.2 | 45.300 |
 | >AY558240.1 | 51.500 |
 | >AB052924.1 | 51.500 |
--------------------------------
 These values that are produced in the script do not round as there was no command I found that has been taught in BIOL 5800 to round like a calculator would automatically do. This is a fault that I found in this particular GC calculator that I was trying to create.
 ## Motivation
 The motivation for creating this calculator is to read any file (in fasta format) and calculate the GC percentages of each sequence in that file. This allows for extremely large sequence files to be analyzed. GC content is important to analyze in research because of the hydrogen bond content and its effect on a DNA sequence. Different characteristics arise from the different GC content (ex. denaturing temperature). 
