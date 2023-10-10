@@ -6,4 +6,5 @@
 ```ruby
 
 ```
+### Table of GC Content
 ## Motivation
