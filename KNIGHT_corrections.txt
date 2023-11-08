@@ -1,0 +1,4 @@
+CORRECTIONS:
+
+Output file creation - No specific command to make an empty file called GCcount.txt (0pts):
+-Before you direct a header into an empty file, the directions specify to MAKE an empty file called GCcount.txt not just create the file by redirection. This is done by the command touch. Because of this I edited my original script to correct my inital mistake and added the command "touch GCcount.txt." While I still got the correct results, this is a distinction created in the script. I made this mistake by reading carelessly in the lab instructions! 

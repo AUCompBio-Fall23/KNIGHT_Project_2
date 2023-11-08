@@ -22,6 +22,10 @@ fi
 
 SEQNUM=`grep ">" $1 | wc -l`
 
+# CORRECTION: In this step in my original submission, I forgot to create an empty file that creates GCcount.txt. This is done with the command touch.
+
+touch GCcount.txt
+
 # Redirect an empty file GCcount.txt with a printed header 1) "Sequence name" and 2) "GC Percentage." This is done by echoing the two column names side by side into a file that is created when running the script.  
 
 echo "Sequence name  GC Percentage" > GCcount.txt
